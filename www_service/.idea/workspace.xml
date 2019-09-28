@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05ac86f9-e29e-427f-a76f-79e286164c5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict_server/ml.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict_server/ml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict_server/net.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict_server/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/predict_server/templates/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict_server/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict_server/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict_server/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict_server/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_service.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run_service.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www_service/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/www_service/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www_service/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/www_service/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569648606042</updated>
-      <workItem from="1569648608092" duration="29736000" />
+      <workItem from="1569648608092" duration="31447000" />
     </task>
     <servers />
   </component>

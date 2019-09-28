@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from predict_server.views import trainView
+from predict_server.views import trainView, testView
 
 urlpatterns = [
-    path('train/', trainView, name='train'),
+    path('train/', trainView.as_view(), name='train'),
+    path('test/', testView.as_view(), name='test'),
 ]

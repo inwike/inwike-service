@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('service', include(('predict_server.urls', 'predict_server'), namespace='predict_server')),
+    path('service/', include(('predict_server.urls', 'predict_server'), namespace='predict_server')),
     path('admin/', admin.site.urls),
 ]

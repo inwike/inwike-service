@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from predict_server.views import trainView, testView
+from predict_server.views import trainView, predictView, testView
 
 urlpatterns = [
     path('train/', trainView.as_view(), name='train'),
+    path('predict/', predictView.as_view(), name='predict'),
     path('test/', testView.as_view(), name='test'),
 ]

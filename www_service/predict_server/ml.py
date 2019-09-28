@@ -115,12 +115,14 @@ def train_network(net, x, y, num_epochs, log=0):
             print('Epoch #[%d] loss: %.3f' % (epoch_index + 1, running_loss))
 
 def save_network(net):
-    torch.save(net.state_dict(), NET_PATH)
+    torch.save(net.state_dict(), settings.NET_PATH)
 
 def load_network(net):
-    if os.path.exists(NET_PATH):
-        net.load_state_dict(torch.load(NET_PATH))
+    print('Attempt Load data from {}...'.format(settings.NET_PATH))
+    if os.path.exists(settings.NET_PATH):
+        net.load_state_dict(torch.load(settings.NET_PATH))
         net.eval()
+        print('Data loading!')
 
 #Validation
 def predict(net, x, y):
